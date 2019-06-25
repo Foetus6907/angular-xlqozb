@@ -3,6 +3,7 @@ import { PokemonService } from './pokemon.service';
 import { PokemonStore } from './pokemon-store';
 
 
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
