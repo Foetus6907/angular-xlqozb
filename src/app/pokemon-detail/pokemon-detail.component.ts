@@ -32,6 +32,7 @@ export class PokemonDetailComponent implements OnInit {
   getPokemon():void {
     const id = + this.route.snapshot.paramMap.get('id');
     this.pokemon = this.store.state.pokemons.find(pokemon=>pokemon.id==id)
+    console.log(this.pokemon.types[0].type.name)
   }
 
   goBack(){

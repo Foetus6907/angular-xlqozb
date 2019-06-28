@@ -9,7 +9,6 @@ import { PokemonStore } from './pokemon-store';
 })
 export class AppComponent implements OnInit  {
   
-  title = 'Pokemon MG';
   minStart = 1;
   maxStart = 10;
 

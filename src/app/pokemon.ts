@@ -15,6 +15,11 @@ export class Pokemon {
 	species: {} 
 	sprites:{}
 	stats: [];
-	types: [];
+	types: [
+    {
+      name:string,
+      url:string
+    }
+  ];
   weight	:	number;
 }

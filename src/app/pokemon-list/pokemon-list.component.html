@@ -1,9 +1,21 @@
 <h2>My PoKedex</h2>
 <button type="button" (click)="morePokemon()">More pok</button>
-<ul class="heroes">
-  <li *ngFor="let pokemon of (store.state$ | async).pokemons">
-    <a routerLink="/detail/{{pokemon.id}}">
-      <span class="badge">{{pokemon.id}}</span> {{pokemon.name}}
-    </a>
-  </li>
-</ul>
+
+<mat-list>
+  <mat-list-item routerLink="/detail/{{pokemon.id}}" *ngFor="let pokemon of (store.state$ | async).pokemons ; last as last">
+    <img matListAvatar [src]="pokemon.sprites.front_default" alt="pokemon.name">
+    <h3 matLine> {{pokemon.name | uppercase}} </h3>
+    <p matLine>
+      <span *ngFor="let type of pokemon.types ; last as last"> {{type.type.name}} <span *ngIf="!last"> / </span></span>
+      
+      
+    </p>
+    <mat-chip-list>
+      <mat-chip routerLink="/detail/{{pokemon.id}}" color="accent" selected>{{pokemon.id}}</mat-chip>
+    </mat-chip-list>
+  <mat-divider [inset]="true" *ngIf="!last"></mat-divider>
+
+  </mat-list-item>
+  
+</mat-list>
+
