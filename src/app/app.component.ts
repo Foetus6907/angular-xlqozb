@@ -2,14 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { PokemonService } from './pokemon.service';
 import { PokemonStore } from './pokemon-store';
 
-
-
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent implements OnInit  {
+  
   title = 'Pokemon MG';
   minStart = 1;
   maxStart = 10;

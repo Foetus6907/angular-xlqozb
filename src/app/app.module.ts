@@ -16,8 +16,13 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { PokemonStore } from './pokemon-store';
 
+//Material
+import { MatButtonModule }  from '@angular/material';
+import { MatToolbarModule } from '@angular/material';
+
+
 @NgModule({
-  imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule , HttpClientModule, AppRoutingModule, ],
+  imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule , HttpClientModule, AppRoutingModule, MatButtonModule,MatToolbarModule,],
   declarations: [ AppComponent, PokemonListComponent, PokemonDetailComponent, MessagesComponent, DashboardComponent],
   bootstrap:    [ AppComponent ],
   providers:    [PokemonStore],
