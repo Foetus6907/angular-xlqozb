@@ -9,7 +9,7 @@ const TYPES = [
   {
     id:"1",
     name:"grass",
-    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/assets/grass.png"
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
   }
 ];
 
