@@ -5,10 +5,9 @@
   <mat-list-item routerLink="/detail/{{pokemon.id}}" *ngFor="let pokemon of (store.state$ | async).pokemons ; last as last">
     <img matListAvatar [src]="pokemon.sprites.front_default" alt="pokemon.name">
     <h3 matLine> {{pokemon.name | uppercase}} </h3>
+   
     <p matLine>
-      <span *ngFor="let type of pokemon.types ; last as last"> {{type.type.name}} <span *ngIf="!last"> / </span></span>
-      
-      
+      <app-type [types]="pokemon.types" [showLabel]=true ></app-type>
     </p>
     <mat-chip-list>
       <mat-chip routerLink="/detail/{{pokemon.id}}" color="accent" selected>{{pokemon.id}}</mat-chip>

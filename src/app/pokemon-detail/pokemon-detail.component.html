@@ -1,6 +1,7 @@
 <button (click)="goBack()">go back</button>
 <div *ngIf="pokemon">
   <h2>{{pokemon.name | uppercase}} Details</h2>
+  <app-type [types]="pokemon.types" [showLabel]=true ></app-type>
   <div><span>id: </span>{{pokemon.id}}</div>
   <img [src]="pokemon.sprites.front_default">
   <div>

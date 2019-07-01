@@ -1,5 +1,5 @@
 <mat-card>
-  <app-type [types]="pokemon.types"></app-type>
+  
 	<mat-card-header>
 
 		<mat-card-title>
@@ -19,7 +19,7 @@
     
    <div>
       <p matLine>
-        Type : <span *ngFor="let type of pokemon.types ; last as last"> {{type.type.name}} <span *ngIf="!last"> / </span></span>
+        <app-type [types]="pokemon.types" style="height: 35px;" [showLabel]=true ></app-type>
       </p>
      
       <p matLine>
