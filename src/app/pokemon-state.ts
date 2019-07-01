@@ -13,39 +13,79 @@ const TYPES = [
   },
   {
     id:"1",
-    name:"grass",
-    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
+    name:"normal",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/normal.png"
   },
   {
     id:"1",
-    name:"grass",
-    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
+    name:"fire",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/fire.png"
   },
   {
     id:"1",
-    name:"grass",
-    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
-  }
+    name:"glass",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/glass.png"
+  },
   {
     id:"1",
-    name:"grass",
-    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
-  }
+    name:"poison",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/poison.png"
+  },
   {
     id:"1",
-    name:"grass",
-    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
-  }
+    name:"ground",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/ground.png"
+  },
   {
     id:"1",
-    name:"grass",
-    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
-  }
+    name:"fight",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/fight.png"
+  },
   {
     id:"1",
-    name:"grass",
-    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
-  }
+    name:"psy",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/psy.png"
+  },
+  {
+    id:"1",
+    name:"gosth",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/gosth.png"
+  },
+  {
+    id:"1",
+    name:"fairy",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/fairy.png"
+  },
+  {
+    id:"1",
+    name:"electric",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/electric.png"
+  },
+  {
+    id:"1",
+    name:"dragon",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/dragon.png"
+  },
+  {
+    id:"1",
+    name:"bug",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/bug.png"
+  },
+  {
+    id:"1",
+    name:"flight",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/flight.png"
+  },
+  {
+    id:"1",
+    name:"rock",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/rock.png"
+  },
+  {
+    id:"1",
+    name:"steel",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/steel.png"
+  },
 ];
 
 export class PokemonState {
