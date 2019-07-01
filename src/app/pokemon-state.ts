@@ -10,6 +10,41 @@ const TYPES = [
     id:"1",
     name:"grass",
     iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
+  },
+  {
+    id:"1",
+    name:"grass",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
+  },
+  {
+    id:"1",
+    name:"grass",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
+  },
+  {
+    id:"1",
+    name:"grass",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
+  }
+  {
+    id:"1",
+    name:"grass",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
+  }
+  {
+    id:"1",
+    name:"grass",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
+  }
+  {
+    id:"1",
+    name:"grass",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
+  }
+  {
+    id:"1",
+    name:"grass",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/grass.png"
   }
 ];
 
