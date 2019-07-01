@@ -23,7 +23,7 @@ const TYPES = [
   },
   {
     id:"4",
-    name:"glass",
+    name:"ice",
     iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/glass.png"
   },
   {
@@ -90,6 +90,11 @@ const TYPES = [
     id:"16",
     name:"water",
     iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/water.png"
+  },
+  {
+    id:"16",
+    name:"dark",
+    iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/dark.png"
   },
 ];
 
