@@ -27,6 +27,7 @@ import { MatDividerModule } from '@angular/material';
 import { MatChipsModule } from '@angular/material';
 import { MatGridListModule } from '@angular/material';
 import { MatListModule } from '@angular/material';
+import { TypeComponent } from './type/type.component';
 
 
 
@@ -42,7 +43,7 @@ import { MatListModule } from '@angular/material';
 
 @NgModule({
   imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule , HttpClientModule, AppRoutingModule, MatButtonModule,MatToolbarModule, MatCardModule, MatBadgeModule, MatDividerModule, MatChipsModule,MatGridListModule, MatListModule],
-  declarations: [ AppComponent, PokemonListComponent, PokemonDetailComponent, MessagesComponent, DashboardComponent, AppNavbarComponent, DashboardPokCardComponent],
+  declarations: [ AppComponent, PokemonListComponent, PokemonDetailComponent, MessagesComponent, DashboardComponent, AppNavbarComponent, DashboardPokCardComponent, TypeComponent],
   bootstrap:    [ AppComponent ],
   providers:    [PokemonStore],
 })

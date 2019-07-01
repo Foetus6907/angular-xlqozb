@@ -1,0 +1,11 @@
+<p>
+type works!
+</p>
+<div ng-if="currentTypes">
+  <img *ngFor="let type of currentTypes ; last as last"  [src]="type.iconUrl" />
+</div >
+<div *ngFor="let type of currentTypes ; last as last">
+  {{type.iconUrl}}
+</div >
+
+<!--  -->

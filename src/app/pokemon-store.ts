@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { Store }  from './store';
 import { PokemonState } from './pokemon-state';
 import { Pokemon } from './pokemon';
+import { Type } from './type';
+
 
 
 @Injectable({providedIn: 'root'})
