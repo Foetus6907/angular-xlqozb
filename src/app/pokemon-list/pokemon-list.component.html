@@ -1,5 +1,5 @@
 <h2>My PoKedex</h2>
-<button type="button" (click)="morePokemon()">More pok</button>
+
 
 <mat-list>
   <mat-list-item routerLink="/detail/{{pokemon.id}}" *ngFor="let pokemon of (store.state$ | async).pokemons ; last as last">
@@ -17,4 +17,4 @@
   </mat-list-item>
   
 </mat-list>
-
+<button type="button" (click)="morePokemon()">More pok</button>

@@ -9,6 +9,8 @@
       <input [(ngModel)]="pokemon.name" placeholder="name"/>
     </label>
   </div>
+
+  <p *ngFor="let type of pokemon.types"  >{{type.type.name}}</p> 
  
 
 </div>

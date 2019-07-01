@@ -38,12 +38,12 @@ const TYPES = [
   },
   {
     id:"7",
-    name:"fight",
+    name:"fighting",
     iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/fight.png"
   },
   {
     id:"7",
-    name:"psy",
+    name:"psychic",
     iconUrl:"https://cdn.jsdelivr.net/gh/Foetus6907/angular-xlqozb@master/psy.png"
   },
   {
