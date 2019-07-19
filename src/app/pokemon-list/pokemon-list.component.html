@@ -2,6 +2,7 @@
 
 
 <mat-list>
+<div class="mb-2 col-12 col-sm-6 col-md-3">
   <mat-list-item routerLink="/detail/{{pokemon.id}}" *ngFor="let pokemon of (store.state$ | async).pokemons ; last as last">
     <img matListAvatar [src]="pokemon.sprites.front_default" alt="pokemon.name">
     <h3 matLine> {{pokemon.name | uppercase}} </h3>
@@ -15,6 +16,6 @@
   <mat-divider [inset]="true" *ngIf="!last"></mat-divider>
 
   </mat-list-item>
-  
+</div>  
 </mat-list>
 <button type="button" (click)="morePokemon()">More pok</button>

@@ -1,13 +1,13 @@
 
-<div style="height: 35px;" ng-if="currentTypes">
-    <img *ngFor="let type of currentTypes ; last as last"  
+<div  style="height: 35px;" ng-if="currentTypes">
+    <img class="mr-2 ml-2" *ngFor="let type of currentTypes ; last as last"  
           style="height: 100%;" 
           [name]="type.id" 
           [src]="type.iconUrl" />
 
 </div >
 <div *ngIf="showLabel">
-  <label   *ngFor="let type of currentTypes ; last as last" [for]="type.id">
+  <label class="mr-2 ml-2"  *ngFor="let type of currentTypes ; last as last" [for]="type.id">
   {{type.name}}
 </label >
 </div >
